@@ -18,26 +18,26 @@
 
 ---
 
- - 下载
+1. 构建
 
-```shell 
- git clone https://github.com/WildboarG/WB2-CLI.git
- cd WB2-CLI
-```
+   - 下载
 
-- 编译
+   ```shell
+    git clone https://github.com/WildboarG/WB2-CLI.git
+    cd WB2-CLI
+   ```
 
-```shell
-go build .
-```
+   - 编译
 
-- 移动二进制文件到系统目录
+   ```
+   go build .
+   ```
 
-```shell
-sudo mv ./wb2-cli /usr/bin/.
-```
+2.  或安装发行版
 
+   - 下载
 
+   
 
 ### 使用
 
