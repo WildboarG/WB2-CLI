@@ -1,6 +1,10 @@
-# WB-CLI
+# WB2-CLI
+
+---
 
 
+
+![Static Badge](https://img.shields.io/badge/Ai_Thinker-WB2-red)![Static Badge](https://img.shields.io/badge/WB2-CLI-blue)
 
 一个快速生成Ai-Thinker-WB2工程的cli工具
 
@@ -35,8 +39,26 @@
 
 2.  或安装发行版
 
-   - 下载
+   - 下载（以linux为例）
 
+   ```shell
+   wget -O wb2-cli https://github.com/WildboarG/wb2-cli/releases/download/v0.0.1/wb2-cli-linux-amd64
+   ```
+   
+   - 提权
+   
+   ```shell
+   chmod +x wb2-cli
+   ```
+   
+   - 移动到系统目录
+   
+   ```shell
+   sudo mv wb2-cli /usr/bin/.
+   ```
+   
+   
+   
    
 
 ### 使用
