@@ -120,3 +120,8 @@ wb2-cli create
 wb2-cli create --sdk /path/to/yoursdk
 ```
 
+
+
+### 演示
+
+![](./img/show.svg)
