@@ -43,6 +43,10 @@ func doCreate(ctx *cli.Context) error {
 	if err != nil {
 		fmt.Println("Error:", err)
 	} else {
+		// add self-define file
+		os.MkdirAll(projectPATH+"/include", 0755)
+		os.MkdirAll(projectPATH+"/src", 0755)
+
 		// 写入文件内容
 		fileMakefile := projectName + "/Makefile"
 		fileConfig := projectName + "/proj_config.mk"

@@ -51,6 +51,9 @@ INCLUDE_COMPONENTS += $(COMPONENTS_BLSYS)
 INCLUDE_COMPONENTS += $(COMPONENTS_VFS)
 INCLUDE_COMPONENTS += $(PROJECT_NAME)
 
+# 添加自定义头文件目录
+CFLAGS += -I$(PROJECT_PATH)/include
+
 include $(BL60X_SDK_PATH)/make_scripts_riscv/project.mk
 
 `
